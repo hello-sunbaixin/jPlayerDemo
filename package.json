@@ -1,0 +1,30 @@
+{
+  "name": "backbone-template",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "gulp server",
+    "build": "gulp build",
+    "r.js": "gulp rjs"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-copy": "^1.0.0",
+    "gulp-css-spriter": "^0.3.3",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-less": "^3.3.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.1.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-sync": "^0.1.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp.spritesmith": "^6.3.0",
+    "merge-stream": "^1.0.1",
+    "opn": "^4.0.2",
+    "requirejs": "^2.3.2",
+    "text": "requirejs/text"
+  }
+}

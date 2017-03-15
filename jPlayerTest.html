@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Website Design By: www.happyworm.com -->
+    <title>Demo : jPlayer as a video player</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="./jPlayerTest.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="../../dist/skin/blue.monday/css/anjuke.css" rel="stylesheet" type="text/css" /> -->
+    <style>
+
+    </style>
+    <script type="text/javascript" src="./jplayer/jquery.min.js"></script>
+    <script type="text/javascript" src="./jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="./jPlayerTest.js"></script>
+    <script type="text/javascript">
+  
+    </script>
+</head>
+
+<body>
+  
+    <div id="jp_container_1" class="jp-video" role="application" aria-label="media player">
+        <div class="jp-state-dialog jp-networkError-dialog">
+            <div class="jp-state-bg"></div>
+            <div class="jp-state-cont">
+                <p class="jp-state-text">您的网络状况不太稳定，请检查网络并刷新页面</p>
+                <div class="jp-button-bar">
+                    <a class="jp-state-button jp-btn-reload" href="javascript:">刷新</a>
+                </div>
+            </div>
+        </div>
+        <div class="jp-type-single">
+            <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+            <div class="jp-gui">
+                <div class="jp-video-play">
+                    <button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+                </div>
+                <div class="jp-interface">
+                    <div class="jp-progress">
+                        <div class="jp-seek-bar" style="width: 100%;">
+                            <div class="jp-play-bar" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                    <div class="jp-controls-holder">
+                        <div class="jp-controls">
+                            <a class="jp-play jp-icon" role="button" tabindex="0">play</a>
+                        </div>
+                        <div class="jp-times"><span class="jp-current-time" role="timer" aria-label="time">00:00</span><span class="jp-all-time">/00:59</span></div>
+                        <div class="jp-toggles">
+                            <a title="循环播放" class="jp-repeat jp-icon" role="button" toggle="true" tabindex="0">repeat</a>
+                            <a class="jp-full-screen jp-icon" role="button" tabindex="0">full screen</a>
+                        </div>
+                        <div class="jp-volume-controls">
+                            <a class="jp-mute jp-icon" role="button" tabindex="0">mute</a>
+                            <a class="jp-volume-max jp-icon" role="button" toggle="true" tabindex="0">max volume</a>
+                            <div class="jp-volume-bar">
+                                <div class="jp-volume-bar-value" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jp-no-solution">
+                <span>需要升级</span>您的浏览器版本过低，或需要安装新版flash <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+            </div>
+        </div>
+    </div>
+  <button class='testPlayBtn'>播放并显示视频</button>
+   <button class='testPauseBtn'>结束并收起视频</button>
+    <!--  </div> -->
+</body>
+
+</html>
